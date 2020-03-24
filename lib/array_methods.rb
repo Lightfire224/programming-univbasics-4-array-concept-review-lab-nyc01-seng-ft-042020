@@ -9,10 +9,10 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  number = array[0]
+  ber = array[0]
   array.length.times { |index|
-    if array[index] > number
-      number = array[index]
+    if array[index] > ber
+      ber = array[index]
     end
   }
   return number
